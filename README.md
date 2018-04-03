@@ -3,13 +3,13 @@
 
 ### Installing
 ```
-Docker compose up
+docker-compose up
 ```
 
 This will create two containers. Run the containers in the background using
 
 ```
-Docker compose up -d
+docker-compose up -d
 ```
 
 Attach to a container

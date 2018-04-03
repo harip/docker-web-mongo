@@ -4,7 +4,18 @@ services:
     build: .
     ports:
       - "5000:5000"
-  db:
+
+  db1:
     image: "mongo"
     ports:
-    - "127.0.0.1:27018:27017"
+    - "127.0.0.1:27018:27017"   
+
+  db2:
+    image: "mongo"
+    ports:
+    - "127.0.0.1:27019:27017"
+
+  db3:
+    image: "mongo"
+    ports:
+    - "127.0.0.1:27020:27017"        
