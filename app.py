@@ -7,7 +7,7 @@ db = client.test
 
 @app.route('/')
 def hello():
-    return 'Hello World v3'        
+    return 'Hello World v7'        
 
 @app.route('/create_post',methods=['GET','POST'])
 def create_post():
