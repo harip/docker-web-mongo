@@ -17,3 +17,9 @@ Attach to a container
 ```
 docker exec -it CONTAINER bash
 ```
+
+Connect to Mongodb from host machine
+
+```
+mongo 127.0.0.1:27018/test
+```
